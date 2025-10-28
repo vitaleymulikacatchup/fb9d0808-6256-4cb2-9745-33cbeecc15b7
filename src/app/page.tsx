@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/ThemeProvider";
 import NavbarStyleApple from '@/components/navbar/NavbarStyleApple/NavbarStyleApple';
@@ -9,7 +9,7 @@ import TeamCardThree from '@/components/sections/team/TeamCardThree';
 import FaqSplitText from '@/components/sections/faq/FaqSplitText';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBase from '@/components/sections/footer/FooterBase';
-import { Bot, Globe, Linkedin, Mail, MessageCircle, Plane, Settings, Twitter, Users, Zap } from 'lucide-react';
+import { Bot, Globe, Linkedin, MessageCircle, Plane, Settings, Twitter, Users, Zap } from 'lucide-react';
 
 export default function HomePage() {
   return (
@@ -102,8 +102,8 @@ export default function HomePage() {
               role: "Chief Executive Officer",
               imageSrc: "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/sarah-mitchell" },
-                { icon: "Twitter", url: "https://twitter.com/sarahmitchell" }
+                { icon: Linkedin, url: "https://linkedin.com/in/sarah-mitchell" },
+                { icon: Twitter, url: "https://twitter.com/sarahmitchell" }
               ]
             },
             {
@@ -112,8 +112,7 @@ export default function HomePage() {
               role: "Chief Technology Officer",
               imageSrc: "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/michael-chen" },
-                { icon: "Github", url: "https://github.com/michaelchen" }
+                { icon: Linkedin, url: "https://linkedin.com/in/michael-chen" }
               ]
             },
             {
@@ -122,8 +121,7 @@ export default function HomePage() {
               role: "VP of Operations",
               imageSrc: "https://images.pexels.com/photos/210990/pexels-photo-210990.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
               socialLinks: [
-                { icon: "Linkedin", url: "https://linkedin.com/in/emma-rodriguez" },
-                { icon: "Mail", url: "mailto:emma@hqtravel.com" }
+                { icon: Linkedin, url: "https://linkedin.com/in/emma-rodriguez" }
               ]
             }
           ]}
